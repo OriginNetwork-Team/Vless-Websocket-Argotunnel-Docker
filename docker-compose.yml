@@ -1,7 +1,7 @@
 services:
   vless-argo:
     build: .
-    image: ghcr.io/rating3pro/vless-websocket-argotunnel-docker:latest
+    image: ghcr.io/originnetwork-team/blue-rabbit:latest
     container_name: vless-argo
     restart: always
     environment:
